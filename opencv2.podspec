@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 A new Flutter plugin project.
                        DESC
   s.homepage         = 'https://github.com/FotoFinderSystems/mws_opencv'
-  s.license          = { :file => '../LICENSE' }
+  s.license          = "MIT"
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :git => 'git@github.com:FotoFinderSystems/mws_opencv.git', :branch => 'ios', :tag => s.version }
   s.vendored_frameworks = 'opencv2.xcframework'
